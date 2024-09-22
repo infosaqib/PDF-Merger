@@ -2,7 +2,7 @@
   "name": "pdf-merger",
   "version": "0.0.0",
   "private": true,
-  "type": "commonjs",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon ./bin/www",
     "build": "tailwindcss build -i ./src/input.css -o ./src/output.css",
